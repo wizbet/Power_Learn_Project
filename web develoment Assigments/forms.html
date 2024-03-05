@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic HTML Form</title>
+  </head>
+  <body>
+    
+    <!-- Fieldset and Legend -->
+    <form action="">
+      <fieldset>
+        <legend>Student Registration Form</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter Your Name"
+        />
+        <br />
+        <br>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday">
+        <br/>
+        
+        <label>Gender:</label> <br />
+        <input type="checkbox" id="Male" name="Male" value="Male" />
+        <label for="Male">Male</label> <br />
+        <input type="checkbox" id="Female" name="Female" value="Female" />
+        <label for="Female">Female</label> <br />
+        <br />
+    
+        <label for="name">Address:</label>
+        <input
+          type="text"
+          id="Address"
+          name="Address"
+          placeholder="Address"
+        />
+        <br />
+        <br>
+        <label for="name">Telephone:</label>
+        <input
+          type="text"
+          id="Tel"
+          name="Tel"
+          placeholder="Enter Your Telephone number here"
+
+        />
+        <br />
+        <br>
+
+        <label for="name">Email:</label>
+        <input
+          type="email"
+          id="emailaddress"
+          name="email"
+          placeholder="Enter Your Email"
+        />
+        <br>
+        <br>
+
+        <label for="cars">Choose a Course:</label>
+  <select id="Course" name="Course">
+    <option value="volvo">Computer Science</option>
+    <option value="saab">Finacial Accounting</option>
+    <option value="fiat">Biochemistry</option>
+    <option value="audi">Information technology1</option>
+  </select>
+  <br>
+  <br>
+  <button type="submit">Register</button>
+  <button type="reset">Cancel</button>
+
+      </fieldset>
+    </form>
+  </body>
+</html>
