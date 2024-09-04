@@ -1,7 +1,7 @@
 ## Portfolio-Website Aguri Bertrand
 Portfolio website built using HTML5, CSS3, JavaScript, and jQuery.
 
-<a href="https://https://portfolio-aguribertrand.netlify.app/" target="_blank">**Visit Now** 🚀</a>
+<a href="https://portfolio-aguribertrand.netlify.app//" target="_blank">**Visit Now** 🚀</a>
 
 
 ### Extras : 
